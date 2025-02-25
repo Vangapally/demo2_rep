@@ -11,7 +11,7 @@ git 'https://github.com/Vangapally/demo2_rep.git'
 }
 steps('build')
 {
-steps(
+steps{
 sh 'javac hello.java'
 }
 }
